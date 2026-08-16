@@ -2,7 +2,13 @@ https://yohan-xx.itch.io/epic-arepa-simulator
 
 Epic Arepa Challenge
 
-"Epic Arepa Challenge" (./images/gameplay.png)
+"Epic Arepa Challenge"
+<img width="1320" height="540" alt="image" src="https://github.com/user-attachments/assets/5535f3e7-f6de-4da7-be00-2232996f7c02" />
+
+
+
+
+
 
 Epic Arepa Challenge is a VR game where the goal is pretty simple: eat 50 arepas before the timer reaches zero.
 
@@ -14,7 +20,7 @@ Play
 
 You can play the game directly in your browser:
 
-"PLAY EPIC AREPA CHALLENGE" (YOUR_PUBLIC_GAME_LINK)
+https://yohan-xx.itch.io/epic-arepa-simulator
 
 No installation is required.
 
