@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://t55as4h67g3m"
+path="res://.godot/imported/nahtt-eat-323883.mp3-eccbc4dd6e6921ab897bcc7cabf37087.mp3str"
+
+[deps]
+
+source_file="res://new folder/nahtt-eat-323883.mp3"
+dest_files=["res://.godot/imported/nahtt-eat-323883.mp3-eccbc4dd6e6921ab897bcc7cabf37087.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

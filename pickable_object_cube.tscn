@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://c2quwjy1hbxdd"]
+
+[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_0ba6u"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_r3fl7"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_7ecxc"]
+
+[node name="PickableObject" unique_id=473346185 instance=ExtResource("1_0ba6u")]
+
+[node name="CollisionShape3D" parent="." index="0"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+shape = SubResource("BoxShape3D_r3fl7")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D" index="0" unique_id=544521664]
+mesh = SubResource("BoxMesh_7ecxc")

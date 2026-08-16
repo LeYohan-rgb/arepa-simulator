@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d2ml0tl3nguin"
+path="res://.godot/imported/freesound_community-coro-musica-de-aparicion-37181.mp3-4160518341557cc865898d0f6976ceb8.mp3str"
+
+[deps]
+
+source_file="res://new folder/freesound_community-coro-musica-de-aparicion-37181.mp3"
+dest_files=["res://.godot/imported/freesound_community-coro-musica-de-aparicion-37181.mp3-4160518341557cc865898d0f6976ceb8.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

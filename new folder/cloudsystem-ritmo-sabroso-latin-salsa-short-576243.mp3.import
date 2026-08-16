@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cjk2riexex7cg"
+path="res://.godot/imported/cloudsystem-ritmo-sabroso-latin-salsa-short-576243.mp3-3a9cce1c5ce5cbc3e255948d45a0cec3.mp3str"
+
+[deps]
+
+source_file="res://new folder/cloudsystem-ritmo-sabroso-latin-salsa-short-576243.mp3"
+dest_files=["res://.godot/imported/cloudsystem-ritmo-sabroso-latin-salsa-short-576243.mp3-3a9cce1c5ce5cbc3e255948d45a0cec3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

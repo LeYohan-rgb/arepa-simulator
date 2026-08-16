@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://2ae8ye3dh03t"]
+
+[ext_resource type="PackedScene" uid="uid://xqimcf20s2jp" path="res://addons/godot-xr-tools/hands/scenes/lowpoly/right_fullglove_low.tscn" id="1_nudle"]
+[ext_resource type="PackedScene" uid="uid://bq86r4yll8po" path="res://addons/godot-xr-tools/hands/scenes/lowpoly/left_fullglove_low.tscn" id="2_3531c"]
+[ext_resource type="PackedScene" uid="uid://b4ysuy43poobf" path="res://addons/godot-xr-tools/functions/function_pickup.tscn" id="2_si731"]
+
+[node name="Origin" type="XROrigin3D" unique_id=1674358150]
+
+[node name="XRCamera3D" type="XRCamera3D" parent="." unique_id=207894421]
+
+[node name="Label3D" type="Label3D" parent="XRCamera3D" unique_id=1551718201]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.27000928)
+visible = false
+text = "holaa"
+
+[node name="XRController3D" type="XRController3D" parent="." unique_id=296545621]
+tracker = &"right_hand"
+
+[node name="RightHand" parent="XRController3D" unique_id=875493825 instance=ExtResource("1_nudle")]
+
+[node name="FunctionPickup" parent="XRController3D" unique_id=316101339 instance=ExtResource("2_si731")]
+
+[node name="XRController3D2" type="XRController3D" parent="." unique_id=2026217166]
+tracker = &"left_hand"
+
+[node name="LeftHand" parent="XRController3D2" unique_id=916227219 instance=ExtResource("2_3531c")]
+
+[node name="FunctionPickup" parent="XRController3D2" unique_id=1041171441 instance=ExtResource("2_si731")]
